@@ -6,8 +6,9 @@ import subprocess
 SCREEN_COMMAND = "xrandr -o {}"
 SCREEN_FLIP = "inverted"
 SCREEN_DEFAULT = "normal"
-
-TOUCH_COMMAND = "xinput set-prop 'ELAN Touchscreen' 'Coordinate Transformation Matrix' {}"
+#TOUCH_COMMAND = "xinput set-prop 'ELAN Touchscreen' 'Coordinate Transformation Matrix' {}"
+TOUCHSCREENNAME="Wacom Pen and multitouch sensor Finger touch"
+TOUCH_COMMAND = "xinput set-prop '"+TOUCHSCREENNAME+"' 'Coordinate Transformation Matrix' {}"
 TOUCH_FLIP = "-1 0 1 0 -1 1 0 0 1"
 TOUCH_DEFAULT = "1 0 0 0 1 0 0 0 1"
 
