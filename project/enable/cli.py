@@ -1,9 +1,12 @@
 import click
 import os
 
-
-TRACKPAD_COMMAND = "xinput enable 'SynPS/2 Synaptics TouchPad'"
-TOUCH_COMMAND = "xinput enable 'ELAN Touchscreen'"
+#TRACKPAD_COMMAND = "xinput enable 'SynPS/2 Synaptics TouchPad'"
+TRACKPADNAME="ETPS/2 Elantech Touchpad"
+TRACKPAD_COMMAND = "xinput enable '{}'".format(TRACKPADNAME)
+TOUCHSCREENNAME="Wacom Pen and multitouch sensor Finger touch"
+#TOUCH_COMMAND = "xinput enable 'ELAN Touchscreen'"
+TOUCH_COMMAND = "xinput enable '{}'".format(TOUCHSCREENNAME)
 
 
 @click.command('enable', short_help='Enable component.')
