@@ -1,9 +1,12 @@
 import click
 import os
 
-
-TRACKPAD_COMMAND = "xinput disable 'SynPS/2 Synaptics TouchPad'"
-TOUCH_COMMAND = "xinput disable 'ELAN Touchscreen'"
+TRACKPADNAME="ETPS/2 Elantech Touchpad"
+#TRACKPAD_COMMAND = "xinput disable 'SynPS/2 Synaptics TouchPad'"
+TRACKPAD_COMMAND = "xinput disable '{}'".format(TRACKPADNAME)
+#TOUCH_COMMAND = "xinput disable 'ELAN Touchscreen'"
+TOUCHSCREENNAME="Wacom Pen and multitouch sensor Finger touch"
+TOUCH_COMMAND = "xinput disable '{}'".format(TOUCHSCREENNAME)
 
 
 @click.command('disable', short_help='Disable component.')
