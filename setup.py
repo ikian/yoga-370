@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup (
-	name='yoga-pal',
+	name='yoga-370',
 	version='1.0',
 	install_requires=[
 		'click'
