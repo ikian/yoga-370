@@ -1,6 +1,6 @@
-# Yoga-Pal [![Circle CI](https://circleci.com/gh/RealOrangeOne/yoga-pal.svg?style=svg)](https://circleci.com/gh/RealOrangeOne/yoga-pal)
+# Yoga-370 [![Circle CI](https://circleci.com/gh/RealOrangeOne/yoga-pal.svg?style=svg)](https://circleci.com/gh/RealOrangeOne/yoga-pal)
 
-Command line tool for controlling screen rotation on Lenovo Yoga laptops. This tool is specifically designed for and test on Yoga laptops, other devices support may vary.
+Command line tool for controlling screen rotation on Lenovo Yoga-370 laptops. This tool is specifically designed for and test on Yoga laptops, other devices support may vary.
 
 ## Requirements
 * Python 3
